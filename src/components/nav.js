@@ -13,6 +13,7 @@ const Styles = styled.div`
     left: 0;
     right: 0;
     transition: all 0.3s ease-in-out;
+    z-index : 1;
   }
 
   .nav .container {
@@ -58,7 +59,7 @@ const Styles = styled.div`
 
 `;
 
-const nav = document.querySelector(".nav");
+const nav = document.getElementById("nav");
 window.addEventListener("scroll", fixNav);
 
 function fixNav() {
@@ -73,14 +74,14 @@ function fixNav() {
 function Nav() {
   return (
     <Styles>
-      <nav class="nav">
-        <div class="container">
-          <h1 class="logo">
+      <nav className="nav" id="nav">
+        <div className="container">
+          <h1 className="logo">
             <a href="/index.html">My Website</a>
           </h1>
           <ul>
             <li>
-              <a href="#" class="current">
+              <a href="#" className="current">
                 Home
               </a>
             </li>

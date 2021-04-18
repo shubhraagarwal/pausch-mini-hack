@@ -84,20 +84,20 @@ function removeActiveClasses() {
 function Hero() {
   return (
     <Styles>
-      <div class="container">
-        <div class="panel active world">
+      <div className="container">
+        <div className="panel active world">
           <h3>Explore The World</h3>
         </div>
-        <div class="panel forest">
+        <div className="panel forest">
           <h3>Wild Forest</h3>
         </div>
-        <div class="panel beach">
-          <h3>Sunny Beach</h3>
+        <div className="panel beach">
+          <h3>Sunny Beac</h3>
         </div>
-        <div class="panel winter">
+        <div className="panel winter">
           <h3>City on Winter</h3>
         </div>
-        <div class="panel clouds">
+        <div className="panel clouds">
           <h3>Mountains - Clouds</h3>
         </div>
       </div>
