@@ -59,7 +59,8 @@ const Styles = styled.div`
 
 `;
 
-const nav = document.getElementById("nav");
+const nav = document.querySelector("nav");
+console.log(nav);
 window.addEventListener("scroll", fixNav);
 
 function fixNav() {
